@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: snow;
+}
+
+main {
+  padding: 20px;
+}
+
+.headelement {
+  background-color: lavender;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
+
+.title {
+  color: indigo;
+  background-color: mediumpurple;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 5px;
+}
+
+.navigation a {
+  color: gray;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navigation a:hover {
+  color: indigo;
+}
+
+.visual {
+  display: flex;
+}
+
+.image {
+  border-radius: 10px;
+  width: 250px;
+  height: auto;
+  margin: 20px;
+}
+
+figcaption {
+  color: grey;
+  font-size: 12px;
+  margin-left: 30px;
+}
+
+h2 {
+  color: indigo;
+  margin-bottom: 10px;
+}
+
+.interests {
+  margin-bottom: 30px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.interest_listelement {
+  padding: 10px;
+  background-color: black;
+  color: snow;
+}
+
+.skills {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills_listelement {
+  padding: 10px;
+  background-color: black;
+  color: snow;
+}
+
+.contact {
+  list-style: none;
+  background-color: lavender;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.link_listelement {
+  list-style: none;
+  background-color: aliceblue;
+  padding: 50px;
+  margin: 10px;
+}
+
+.link_listelement:hover {
+  padding: 60px;
+  margin: 0;
+}
+
+.link_listelement a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.link_listelement a:hover {
+  color: gray;
+}
+
+.github-logo {
+  border-radius: 100px;
+  width: 50px;
+  height: auto;
+}
+
+.codepen-logo {
+  width: 50px;
+  height: auto;
+}
+
+.talentapp-logo {
+  border-radius: 100px;
+  width: 50px;
+  height: auto;
+}
+
+article {
+  background-color: rgb(240, 230, 216);
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.facts {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.about {
+  max-width: 50%;
+}
+
+.CV {
+  max-width: 50%;
+}
+
+.footer {
+  background-color: rgb(57, 53, 53);
+  height: 75px;
+  color: mediumpurple;
+  font-size: 18px;
+}
